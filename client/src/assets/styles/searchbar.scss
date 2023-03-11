@@ -1,0 +1,16 @@
+@import "./colors";
+
+
+.search-bar-button{
+    width: 10%;
+}
+
+.search-input{
+    width: 25%;
+}
+
+@media all and (max-width: 1000px){
+    .search-bar-button{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,21 @@
+@import "colors";
+
+.gradient-custom {
+  background: $baseBlue;
+
+  background: -webkit-linear-gradient(to right, $baseBlue, $basePink);
+
+  background: linear-gradient(to right, $basePink, $baseBlue);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}

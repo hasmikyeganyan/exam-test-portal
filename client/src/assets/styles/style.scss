@@ -1,0 +1,65 @@
+@import "./colors";
+@import "./gradient";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.text-darkBlue {
+  color: $darkBlue !important;
+}
+
+input {
+  padding: 8px 13px !important;
+  box-shadow: none !important;
+  border: 0.5px solid #cc5f9b42 !important;
+
+  &::placeholder {
+    color: gray !important;
+    font-weight: 300 !important;
+  }
+
+  &:focus {
+    border-color: $baseBlue !important;
+  }
+}
+
+.btn-custom {
+  width: 100%;
+  border: 0px;
+  padding: 25px 0px;
+  box-shadow: 0px 0px 16px #3e3e3e1a;
+}
+
+.p-25 {
+  padding: 25px !important;
+}
+
+.rounded {
+  border-radius: 8px !important;
+}
+
+table {
+  height: fit-content;
+  border: 1px solid $basePink !important;
+  color: $darkBlue !important;
+
+  tr {
+    &:hover {
+      color: $darkBlue !important;
+    }
+  }
+}
+
+.text-primary {
+  color: $darkPink !important;
+}
+.text-dark {
+  color: $darkBlue !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+@import "colors";
+$bg-img: url("../images/background.png");
+
+section {
+  background-color: #ffffff;
+  background-image: $bg-img;
+
+  .card {
+    background: #ffffff7a;
+  }
+
+  .card-shadow {
+    border: 0px !important;
+    box-shadow: 1px 2px 40px #3b3b3b13;
+  }
+}

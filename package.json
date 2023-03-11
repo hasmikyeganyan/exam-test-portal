@@ -1,0 +1,27 @@
+{
+  "name": "exam-test-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "cd client && npm start",
+    "start:server": "cd server && npm start",
+    "start": "npm run start:server && npm run start:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/sourcemind/exam-test-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sourcemind/exam-test-portal/issues"
+  },
+  "homepage": "https://bitbucket.org/sourcemind/exam-test-portal#readme",
+  "dependencies": {
+    "react-modal": "^3.16.1"
+  },
+  "devDependencies": {
+    "@types/react-modal": "^3.13.1"
+  }
+}
